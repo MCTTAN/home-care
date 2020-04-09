@@ -1,28 +1,29 @@
-/* -- GENERAL -- */
-
-/* -- Desktop -- */
+/*--------------------------------------------------------------
+# GENERAL - PH THEME
+--------------------------------------------------------------*/
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Amiri", serif;
   color: black;
 }
 
 a {
-  color: #0839A3;
+  color: #002b7f;
 }
 
 a:hover {
-  color: #0839A3;
+  color: #002b7f;
   text-decoration: none;
 }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Amiri", serif;
 }
+
 
 h1 { font-size: 20px; }
 h2 { font-size: 22px; }
@@ -31,33 +32,49 @@ h4 { font-size: 26px; }
 h5 { font-size: 28px; }
 h6 { font-size: 30px; }
 
-/* -- Mobile -- */
-
 @media (min-width: 858px) {
-  a, p { font-size: 16px; }
+    a, p { font-size: 18px; }
 }
 
 @media (min-width: 780px) {
-  a, p { font-size: 16px; }
+    a, p { font-size: 18px; }
 }
 
 @media (min-width: 702px) {
-  a, p { font-size: 16px; }
+    a, p { font-size: 18px; }
 }
 
 @media (min-width: 724px) {
-  a, p { font-size: 14px; }
+    a, p { font-size: 18px; }
 }
 
-@media (min-width: 724px) {
-  a, p { font-size: 14px; }
+@media (max-width: 623px) {
+    a, p { font-size: 18px; }
 }
 
-@media (min-width: 623px) {
-  a, p { font-size: 14px; }
+/*--------------------------------------------------------------
+# SIDEBAR NAVIGATION
+--------------------------------------------------------------*/
+
+span {
+  background: white !important;
 }
 
-/* -- BACK TO TOP BUTTON -- */
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: white !important;
+}
+
+/*--------------------------------------------------------------
+# SLIDES NAVIGATION
+--------------------------------------------------------------*/
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 1em !important;
+}
+
+/*--------------------------------------------------------------
+# BACK TO TOP BUTTON
+--------------------------------------------------------------*/
 
 .back-to-top {
   position: fixed;
@@ -67,8 +84,8 @@ h6 { font-size: 30px; }
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0839A3;
-  color: fff;
+  background: #002b7f;
+  color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -81,14 +98,16 @@ h6 { font-size: 30px; }
 }
 
 .back-to-top:hover {
-  color: #0839A3;
-  background: #FFD614;
-  transition: background 0.2 ease-in-out;
+  color: #fff;
+  background: #002b7f;
+  transition: background 0.2s ease-in-out;
 }
 
-/* -- NAVIGATION MENU -- */
+/*--------------------------------------------------------------
+# NAVIGATION MENU
+--------------------------------------------------------------*/
 
-/* -- Header (Desktop) -- */
+/* HEADER */
 
 #header {
   height: 140px;
@@ -97,26 +116,26 @@ h6 { font-size: 30px; }
   line-height: 5;
   transition: all 0.5s;
   padding: 15px 0;
-  background: black;
+  background: #002b7f;
   opacity: 1.0;
 }
 
 #header a {
-  color: black;
-  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-family: Amiri;
   font-size: 20px;
 }
 
 #header.header-scrolled {
-  /* background: rgba(255, 255, 255, 0.95); */
-  background: #fff;
+  /*background: rgba(255, 255, 255, 0.95);*/
+  background: #002b7f;
   opacity: 1.0;
-  box-shadow: 0px 2px 15px rgpa(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #header.header-scrolled a {
-  color: white;
-  font-family: "Quicksand", sans-serif;
+  color: white;  
+  font-family: Amiri;
   font-size: 20px;
 }
 
@@ -130,44 +149,42 @@ h6 { font-size: 30px; }
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: black;
+  color: #002b7f;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  position: absolute:
+  position: absolute;
   bottom: 2.25pt;
   max-width: 140px;
   max-height: 140px;
 }
 
-.dropdown-item * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-/* -- Header (Mobile) -- */
-
 @media (max-width: 992px) {
   #header {
-    /* background: rgba(255, 255, 255, 0.95); */
-    background: #fff;
+    /*background: rgba(255, 255, 255, 0.95);*/
+    background: #002b7f;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
   
   #header a {
     color: white;
-    font-family: "Quicksand", sans-serif;
+    font-family: Amiri;
     font-size: 20px;
   }
   
   .custom-toggler.navbar-toggler {
-    border-color: rgb(255, 102, 203);
-  }
+    border-color: rgb(255,102,203);
+  } 
 }
+
+/*--------------------------------------------------------------
+# NAVIGATION MENU
+--------------------------------------------------------------*/
+
+/* MOBILE NAVIGATION */
 
 .nav-menu, .nav-menu * {
   margin: 0;
@@ -184,29 +201,29 @@ h6 { font-size: 30px; }
 .nav-menu a {
   display: block;
   position: relative;
-  color: #0839A3;
+  color: #002b7f;
   padding: 8px 15px 12px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Amiri", serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li: hover > a {
-  color: #0839A3;
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #002b7f;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #fff;
-  color: black;
+  background: #002b7f;
+  color: #fff;
   border-radius: 50px;
   margin: 0 15px;
   padding: 10px 25px;
 }
 
 .nav-menu .get-started a:hover {
-  background: #fff;
-  color: black;
+  background: #002b7f;
+  color: #fff;
 }
 
 .nav-menu .drop-down ul {
@@ -220,7 +237,7 @@ h6 { font-size: 30px; }
   padding: 10px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  trasition: ease all 0.3s;
+  transition: ease all 0.3s;
 }
 
 .nav-menu .drop-down:hover > ul {
@@ -239,11 +256,11 @@ h6 { font-size: 30px; }
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: black;
+  color: #002b7f;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li: hover > a {
-  color: #0839A3;
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  color: #002b7f;
 }
 
 .nav-menu .drop-down > a:after {
@@ -278,15 +295,15 @@ h6 { font-size: 30px; }
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-  
   .nav-menu .drop-down .drop-down:hover > ul {
     left: -100%;
   }
-  
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
 }
+
+/* MOBILE NAVIGATION */
 
 .mobile-nav-toggle {
   position: fixed;
@@ -303,8 +320,7 @@ h6 { font-size: 30px; }
   text-align: right;
 }
 
-/* -- Hamburger -- */
-
+/* HAMURGER */
 .mobile-nav-toggle i {
   color: white;
 }
@@ -334,14 +350,14 @@ h6 { font-size: 30px; }
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #0893A3;
+  color: #002b7f;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #0893A3;
+  color: #002b7f;
   text-decoration: none;
 }
 
@@ -394,24 +410,180 @@ h6 { font-size: 30px; }
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
-}                                               
+}
 
-/* -- BACKGROUND TEMPLATES -- */
+/*--------------------------------------------------------------
+# SECTIONS
+--------------------------------------------------------------*/
 
-.background-1 {
-  background-image: url("");
+.blue-inverse-flowers {
+  background-image: url("https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/rising-blue-inverse-flowers-c91439-7D061F-pattern-smaller.png?raw=true");
   background-size: cover;
 }
 
-/*-- SECTIONS --*/
+.dark-blue-leaves {
+  background-image: url("https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/rising-dark-blue-leaves-background-pattern.png?raw=true");
+  background-size: cover;
+  background-color: #002A6A;
+  background-blend-mode: soft-light;
+}
+
+.orange-students {
+  background-image: url("https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/free-to-use/edits/170425-F-YW474-1478-orange.png?raw=true");
+  background-size: cover;
+}
+
+.pink-red-flowers {
+  background-image: url('https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/rising-blue-inverse-flowers-c91439-7D061F-pattern-smaller.png?raw=true');
+  background-size: cover;
+  background-color: #7d061f;
+  background-blend-mode: soft-light;
+}
+
+.studying-outside-1 {
+  background-image: url("https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/free-to-use/edits/studying-outside.png?raw=true");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.studying-outside-2 {
+  background-image: url('https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/free-to-use/edits/69218558-young-asian-woman-sitting-on-grass-and-enjoy-to-work-with-laptop-concept-of-freelance-enjoy-working-glow.png?raw=true');
+  background-size: cover;
+}
+
+.teal-topographic {
+  background-image: url('https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/rising-topographic-white-lines-teal-background-pattern.png?raw=true');
+  background-size: cover;
+  background-color: #00CB89;
+  background-blend-mode: luminosity;
+}
+
+.the-digital-divide-1 {
+  background-image: url('https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/the-digital-divide-2.png?raw=true');
+  background-size: cover;
+  /*background-color: #002B7F;
+  background-blend-mode: overlay;*/
+}
+
+.yellow-retro {
+  background-image: url("https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/rising-yellow-retro-pattern.png?raw=true");
+  background-size: cover;
+}
+
+/*--------------------------------------------------------------
+# HERO
+--------------------------------------------------------------*/
+
+#hero {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 140px 0 100px 0;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  right: -100%;
+  top: 20%;
+  width: 250%;
+  height: 200%;
+  z-index: -1;
+  background-color: #002b7f;
+  transform: skewY(135deg);
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  color: #002b7f;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h2 {
+  color: #002b7f;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#hero .download-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+  padding: 8px 24px 10px 46px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #002b7f;
+  position: relative;
+}
+
+#hero .download-btn:hover {
+  background: #002b7f;
+}
+
+#hero .download-btn i {
+  font-size: 20px;
+  position: absolute;
+  left: 18px;
+  top: 8.5px;
+}
+
+#hero .download-btn + .download-btn {
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  #hero {
+    text-align: center;
+  }
+  #hero .download-btn + .download-btn {
+    margin: 0 10px;
+  }
+  #hero .hero-img {
+    text-align: center;
+  }
+  #hero .hero-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+}
+
+/*--------------------------------------------------------------
+# GENERAL SECTIONS
+--------------------------------------------------------------*/
 
 section {
-  padding; 40px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background-color: black;
+  background-color: #002b7f;
 }
 
 .section-title {
@@ -424,15 +596,17 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: white;
-  font-family: "Quicksand", sans-serif;
+  color: #002b7f;
+  font-family: "Amiri", serif;
 }
 
 .section-title p {
   margin-bottom: 0;
 }
 
-/*-- Features --*/
+/*--------------------------------------------------------------
+# FEATURES
+--------------------------------------------------------------*/
 
 .features .content {
   padding: 30px 0;
@@ -451,12 +625,12 @@ section {
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: white;
+  color: #002b7f;
 }
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: white;
+  color: #002b7f;
   margin-left: 60px;
 }
 
@@ -464,7 +638,6 @@ section {
   .features .image {
     text-align: center;
   }
-  
   .features .image img {
     max-width: 80%;
   }
@@ -476,7 +649,9 @@ section {
   }
 }
 
-/*-- Details --*/
+/*--------------------------------------------------------------
+# DETAILS
+--------------------------------------------------------------*/
 
 .details .content + .content {
   margin-top: 100px;
@@ -485,7 +660,7 @@ section {
 .details .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: white;
+  color: #002b7f;
 }
 
 .details .content ul {
@@ -500,14 +675,16 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: white;
+  color: #002b7f;
 }
 
 .details .content p:last-child {
   margin-bottom: 0;
 }
 
-/*-- Gallery --*/
+/*--------------------------------------------------------------
+# GALLERY
+--------------------------------------------------------------*/
 
 .gallery {
   overflow: hidden;
@@ -528,11 +705,15 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: black !important;
+  background-color: #002b7f !important;
 }
 
 .gallery .owl-dot.active {
-  background-color: white !important;
+  background-color: #002b7f !important;
+}
+
+.gallery .gallery-carousel {
+  padding-top: 30px;
 }
 
 .gallery .gallery-carousel .owl-stage-outer {
@@ -541,9 +722,9 @@ section {
 
 @media (min-width: 992px) {
   .gallery .gallery-carousel .center {
-    border: 6px solid white;
+    border: 6px solid #002b7f;
     padding: 4px;
-    background: black;
+    background: #fff;
     z-index: 1;
     transform: scale(1.2);
     margin-top: 10px;
@@ -551,7 +732,9 @@ section {
   }
 }
 
-/*-- Testimonials --*/
+/*--------------------------------------------------------------
+# TESTIMONIALS
+--------------------------------------------------------------*/
 
 .testimonials .testimonial-wrap {
   padding-left: 50px;
@@ -564,13 +747,13 @@ section {
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
-  background: black;
+  background: #fff;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 10px;
-  border: 6px solid black;
+  border: 6px solid #fff;
   position: absolute;
   left: -45px;
 }
@@ -579,17 +762,17 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: white;
+  color: #111;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: white;
+  color: #999;
   margin: 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: white;
+  color: #002b7f;
   font-size: 26px;
 }
 
@@ -643,7 +826,9 @@ section {
   }
 }
 
-/*-- Pricing --*/
+/*--------------------------------------------------------------
+# PRICING
+--------------------------------------------------------------*/
 
 .pricing .row {
   padding-top: 40px;
@@ -758,7 +943,9 @@ section {
   }
 }
 
-/*-- FAQ --*/
+/*--------------------------------------------------------------
+# FAQ
+--------------------------------------------------------------*/
 
 .faq .accordion-list {
   padding: 0 100px;
@@ -837,7 +1024,9 @@ section {
   }
 }
 
-/*-- Contact --*/
+/*--------------------------------------------------------------
+# CONTACT
+--------------------------------------------------------------*/
 
 .contact .info {
   padding: 20px 40px;
@@ -985,7 +1174,9 @@ section {
   }
 }
 
-/*-- Footer --*/
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
 
 #footer {
   background: #fff;
@@ -1162,7 +1353,78 @@ section {
   }
 }
 
-/*-- Flexboxes --*/
+/*--------------------------------------------------------------
+# IMAGE SIZES
+--------------------------------------------------------------*/
+
+@media {
+  img {
+    max-width: 100%;
+  height: auto;
+  }
+}
+
+/*--------------------------------------------------------------
+# CUSTOM BUTTONS
+--------------------------------------------------------------*/
+
+.btn-orange-buy-me-coffee {
+    box-shadow:0 0 0 1px #f86a2c inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #f86a2c, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color: #f86a2c;
+}
+
+.btn-white {
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #adadad, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#fff;
+}
+
+.btn3d {
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    -moz-outline-style:none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+}
+
+.btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+}
+
+.btn3d:active {
+    top:9px;
+}
+
+.btn-primary {
+    box-shadow:0 0 0 1px #428bca inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #357ebd, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#428bca;
+}
+
+ .btn-success {
+    box-shadow:0 0 0 1px #5cb85c inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4cae4c, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#5cb85c;
+}
+
+ .btn-info {
+    box-shadow:0 0 0 1px #5bc0de inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #46b8da, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#5bc0de;
+}
+
+.btn-warning {
+    box-shadow:0 0 0 1px #f0ad4e inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #eea236, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#f0ad4e;
+}
+
+.btn-danger {
+    box-shadow:0 0 0 1px #c63702 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #C24032, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#c63702;
+}
+
+/*--------------------------------------------------------------
+# FLEXBOXES
+--------------------------------------------------------------*/
 
 .container-2, .container-3 {
   display: flex;
