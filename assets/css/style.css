@@ -116,8 +116,7 @@ span {
   line-height: 5;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #002b7f;
-  opacity: 1.0;
+  background: white;
 }
 
 #header a {
@@ -128,7 +127,7 @@ span {
 
 #header.header-scrolled {
   /*background: rgba(255, 255, 255, 0.95);*/
-  background: #002b7f;
+  background: white;
   opacity: 1.0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -416,9 +415,11 @@ span {
 # SECTIONS
 --------------------------------------------------------------*/
 
-.blue-inverse-flowers {
-  background-image: url("https://github.com/MCTTAN/risingforlearners/blob/master/ph/media/rising-ph/rising-patterns/rising-blue-inverse-flowers-c91439-7D061F-pattern-smaller.png?raw=true");
-  background-size: cover;
+.bringing-happiness-to-home-care-services {
+  background-image: url("https://github.com/MCTTAN/home-care/blob/master/media/bringing-happiness-to-home-care-services.png?raw=true");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .dark-blue-leaves {
