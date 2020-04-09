@@ -2,6 +2,8 @@
 # GENERAL - PH THEME
 --------------------------------------------------------------*/
 
+
+
 body {
   font-family: 'Quicksand', sans-serif;
   color: black;
@@ -9,15 +11,18 @@ body {
 
 a {
   color: #002b7f;
+  font-family: 'Quicksand', sans-serif;
 }
 
 a:hover {
   color: #002b7f;
   text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
 }
 
 p {
   font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -117,6 +122,7 @@ span {
   transition: all 0.5s;
   padding: 15px 0;
   background: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #header a {
@@ -1384,42 +1390,23 @@ section {
 # FLEXBOXES
 --------------------------------------------------------------*/
 
-.container-2, .container-3 {
+.row {
   display: flex;
 }
 
-.container-1 {
+.columns-container {
+  margin: 40px auto 0 auto;
   display: flex;
-  /*
-  justify-content: space-around;
-  justify-content: flex-start;
-  justify-content: flex-end;
   justify-content: space-between;
-  justify-content: center;
-  */
+  flex-direction: row;
 }
 
-.container-1 div, .container-2 div, .container-3 div {
-  /*border: 3px #fff solid;*/
-  padding: 10px;
-}
-
-.box-1 {
+.column {
+  padding: 20px;
+  margin-bottom: 20px;
   flex: 1;
-  order: 1;
+  flex-direction: row;
 }
 
-.box-2 {
-  flex: 1;
-  order: 2;
-}
 
-.box-3 {
-  flex: 1;
-  order: 3;
-}
 
-.container-2-box {
-  /*width: 27%;*/
-  flex-basis: 27%;
-}
