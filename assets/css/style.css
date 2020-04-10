@@ -115,6 +115,7 @@ span {
 /* HEADER */
 
 #header {
+  background-color: white;
   height: 140px;
   transition: all 0.5s;
   z-index: 997;
