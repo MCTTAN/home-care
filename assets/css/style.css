@@ -10,12 +10,12 @@ body {
 }
 
 a {
-  color: #002b7f;
+  color: #A10364;
   font-family: 'Quicksand', sans-serif;
 }
 
 a:hover {
-  color: #002b7f;
+  color: #A10364;
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
 }
@@ -89,7 +89,7 @@ span {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #002b7f;
+  background: #A10364;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -104,7 +104,7 @@ span {
 
 .back-to-top:hover {
   color: #fff;
-  background: #002b7f;
+  background: #A10364;
   transition: background 0.2s ease-in-out;
 }
 
@@ -121,25 +121,21 @@ span {
   line-height: 5;
   transition: all 0.5s;
   padding: 15px 0;
-  background: white;
   font-family: 'Quicksand', sans-serif;
 }
 
 #header a {
-  color: white;
   font-style: 'Quicksand', sans-serif;
   font-size: 20px;
 }
 
 #header.header-scrolled {
   /*background: rgba(255, 255, 255, 0.95);*/
-  background: white;
   opacity: 1.0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #header.header-scrolled a {
-  color: white;  
   font-style: 'Quicksand', sans-serif;
   font-size: 20px;
 }
@@ -154,7 +150,7 @@ span {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #002b7f;
+  color: #A10364;
   text-decoration: none;
 }
 
@@ -170,12 +166,10 @@ span {
 @media (max-width: 992px) {
   #header {
     /*background: rgba(255, 255, 255, 0.95);*/
-    background: #002b7f;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
   
   #header a {
-    color: white;
     font-style: 'Quicksand', sans-serif;
     font-size: 20px;
   }
@@ -206,7 +200,7 @@ span {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #002b7f;
+  color: #A10364;
   padding: 8px 15px 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -214,12 +208,12 @@ span {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #002b7f;
+  color: #A10364;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #002b7f;
+  background: #A10364;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -227,7 +221,7 @@ span {
 }
 
 .nav-menu .get-started a:hover {
-  background: #002b7f;
+  background: #A10364;
   color: #fff;
 }
 
@@ -261,11 +255,11 @@ span {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #002b7f;
+  color: #A10364;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #002b7f;
+  color: #A10364;
 }
 
 .nav-menu .drop-down > a:after {
@@ -355,14 +349,14 @@ span {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #002b7f;
+  color: #A10364;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #002b7f;
+  color: #A10364;
   text-decoration: none;
 }
 
@@ -566,7 +560,7 @@ span {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #002b7f;
+  background-color: #A10364;
   transform: skewY(135deg);
 }
 
@@ -575,12 +569,12 @@ span {
   font-size: 48px;
   font-weight: 500;
   line-height: 56px;
-  color: #002b7f;
+  color: #A10364;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #002b7f;
+  color: #A10364;
   margin-bottom: 50px;
   font-size: 20px;
 }
@@ -594,12 +588,12 @@ span {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #002b7f;
+  background: #A10364;
   position: relative;
 }
 
 #hero .download-btn:hover {
-  background: #002b7f;
+  background: #A10364;
 }
 
 #hero .download-btn i {
@@ -659,7 +653,7 @@ section {
 }
 
 .section-bg {
-  background-color: #002b7f;
+  background-color: #A10364;
 }
 
 .section-title {
@@ -672,7 +666,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #002b7f;
+  color: #A10364;
   font-style: 'Quicksand', sans-serif;
 }
 
@@ -701,12 +695,12 @@ section {
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #002b7f;
+  color: #A10364;
 }
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: #002b7f;
+  color: #A10364;
   margin-left: 60px;
 }
 
@@ -736,7 +730,7 @@ section {
 .details .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #002b7f;
+  color: #A10364;
 }
 
 .details .content ul {
@@ -751,7 +745,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #002b7f;
+  color: #A10364;
 }
 
 .details .content p:last-child {
@@ -781,11 +775,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #002b7f !important;
+  background-color: #A10364 !important;
 }
 
 .gallery .owl-dot.active {
-  background-color: #002b7f !important;
+  background-color: #A10364 !important;
 }
 
 .gallery .gallery-carousel {
@@ -798,7 +792,7 @@ section {
 
 @media (min-width: 992px) {
   .gallery .gallery-carousel .center {
-    border: 6px solid #002b7f;
+    border: 6px solid #A10364;
     padding: 4px;
     background: #fff;
     z-index: 1;
@@ -848,7 +842,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #002b7f;
+  color: #A10364;
   font-size: 26px;
 }
 
@@ -885,7 +879,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #002b7f !important;
+  background-color: #A10364 !important;
 }
 
 @media (max-width: 767px) {
@@ -926,14 +920,14 @@ section {
 
 .pricing h4 {
   font-size: 46px;
-  color: #002b7f;
+  color: #A10364;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
 }
 
 .pricing h4 span {
-  color: #002b7f;
+  color: #A10364;
   font-size: 18px;
   display: block;
 }
@@ -941,7 +935,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #002b7f;
+  color: #A10364;
   text-align: left;
   line-height: 20px;
 }
@@ -951,7 +945,7 @@ section {
 }
 
 .pricing ul i {
-  color: #002b7f;
+  color: #A10364;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -982,7 +976,7 @@ section {
 }
 
 .pricing .get-started-btn:hover {
-  background: #002b7f;
+  background: #A10364;
 }
 
 .pricing .featured {
@@ -991,11 +985,11 @@ section {
 }
 
 .pricing .featured .get-started-btn {
-  background: #002b7f;
+  background: #A10364;
 }
 
 .pricing .featured .get-started-btn:hover {
-  background: #002b7f;
+  background: #A10364;
 }
 
 @media (max-width: 992px) {
@@ -1059,7 +1053,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #002b7f;
+  color: #A10364;
 }
 
 .faq .accordion-list .icon-show, .faq .accordion-list .icon-close {
@@ -1079,11 +1073,11 @@ section {
 }
 
 .faq .accordion-list a.collapsed {
-  color: #002b7f;
+  color: #A10364;
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #002b7f;
+  color: #A10364;
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -1194,7 +1188,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #002b7f;
+  background-color: #A10364;
 }
 
 .contact .php-email-form input {
@@ -1207,16 +1201,16 @@ section {
 
 .contact .php-email-form button[type="submit"] {
   background: #fff;
-  border: 2px solid #002b7f;
+  border: 2px solid #A10364;
   padding: 10px 24px;
-  color: #002b7f;
+  color: #A10364;
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #002b7f;
+  background: #A10364;
   color: #fff;
 }
 
@@ -1303,7 +1297,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #002b7f;
+  background: #A10364;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1384,13 +1378,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #002b7f;
+  color: #A10364;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #002b7f;
+  background: #A10364;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1520,5 +1514,27 @@ section {
   flex-direction: row;
 }
 
+/*--------------------------------------------------------------
+# CUSTOM BULLETPOINTS
+--------------------------------------------------------------*/
+
+.custom-bulletpoints-pink-heart ul {
+  list-style: none;
+  list-style-type: none;
+  background-color: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-bulletpoints-pink-heart li {
+  list-style: none;
+  list-style-type: none;
+  background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/heart-stethoscope-pink-icon-2.png?raw=true');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
 
 
