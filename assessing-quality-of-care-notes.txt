@@ -1,0 +1,109 @@
+<!-- START - ASSESSING QUALITY OF CARE -->
+        
+        <div class="section row">
+          <div class="columns-container">
+            
+            <div class="column" style="background-color: #E056B4; padding: 125px; flex-flow: column row wrap;">
+              
+              <div class="container">
+                <div class="section-title">
+                  <p style="font-size: 45px; color: white; letter-spacing: 1.5px; text-align: left;">
+                    <b>
+                      Assessing Quality of Care
+                    </b>
+                  </p>
+                  
+                  <p style="font-size: 25px; color: white; letter-spacing: 1.5px; text-align: left; -webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: white;">
+                    <br>
+                    We monitor, report, and benchmark adverse events in order to ensure the safety and health of all our clients.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="column" style="background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/free-to-use/homecare-1.jpg?raw=true'); background-size: cover;">
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- END - ASSESSING QUALITY OF CARE -->
+        
+        
+        
+        
+        
+        
+        
+        
+<!-- START - DELIVERING HEALTH CARE AT HOME -->
+        
+        <div class="section row">
+          <div class="columns-container">
+            
+            <div class="column" style="background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/free-to-use/homecare-2.jpg?raw=true'); background-size: cover;">
+            </div>
+            
+            <div class="column" style="background-color: #E056B4; padding: 125px; flex-flow: column row wrap;">
+              
+              <div class="container">
+                <div class="section-title">
+                  <p style="font-size: 45px; color: white; letter-spacing: 1.5px; text-align: left;">
+                    <b>
+                      Delivering Health Care at Home
+                    </b>
+                  </p>
+                  
+                  <p style="font-size: 25px; color: white; letter-spacing: 1.5px; text-align: left; -webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: white;">
+                    <br>
+                    We value our clients' autonomy, safety, and quality care.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- END - DELIVERING HEALTH CARE AT HOME -->
+        
+        
+        
+        
+        
+        
+        
+        
+<!-- START - OUR GOALS -->
+        
+        <div class="section row">
+          <div class="columns-container">
+            
+            <div class="column" style="background-color: #E056B4; padding: 125px; flex-flow: column row wrap;">
+              
+              <div class="container">
+                <div class="section-title">
+                  <p style="font-size: 45px; color: white; letter-spacing: 1.5px; text-align: left;">
+                    <b>
+                      We care about your health and happiness.
+                    </b>
+                  </p>
+                  
+                  <p style="font-size: 25px; color: white; letter-spacing: 1.5px; text-align: left; -webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: white;">
+                    <br>
+                    We are here to help clients live with greater independence, and to promote an optimal level of well-being.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="column" style="background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/free-to-use/homecare-10.jpg?raw=true'); background-size: cover;">
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- END - OUR GOALS -->
