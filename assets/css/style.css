@@ -163,8 +163,8 @@ span {
   margin: 0;
   position: absolute;
   bottom: 2.25pt;
-  max-width: 140px;
-  max-height: 140px;
+  max-width: 175px;
+  max-height: 175px;
 }
 
 @media (max-width: 992px) {
@@ -420,7 +420,7 @@ span {
 --------------------------------------------------------------*/
 
 .bringing-happiness-to-home-care-services {
-  background-image: url("https://github.com/MCTTAN/home-care/blob/master/media/bringing-happiness-to-home-care-services.png?raw=true");
+  background-image: url("https://github.com/MCTTAN/home-care/blob/master/media/bringing-happiness-to-home-care-services-2.png?raw=true");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
