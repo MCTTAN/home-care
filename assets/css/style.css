@@ -1,3 +1,31 @@
+
+
+body {
+    margin:0
+}
+#navBar {
+    background: RGB(0, 0, 0);
+    height: 140px;
+    position: fixed;
+    width: 100%;
+    top:0
+}
+#wrapper {
+    margin: 140px auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # GENERAL - PH THEME
 --------------------------------------------------------------*/
