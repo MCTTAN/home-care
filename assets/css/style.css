@@ -187,7 +187,9 @@ span {
 }
 
 #header .logo img {
-  padding: 0;
+  /*padding: 0;*/
+  padding-right: 75px;
+  /*justify-content: left;*/
   margin: 0;
   position: absolute;
   bottom: 2.25pt;
