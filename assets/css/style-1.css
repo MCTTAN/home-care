@@ -463,13 +463,6 @@ span {
   background-repeat: no-repeat;
 }
 
-.nurse-2 {
-  background-image: url();
-  background-size: 80%;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-}
-
 .nurse-3 {
   background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/nurse-scrub-3.png?raw=true');
   background-size: 70%;
@@ -477,8 +470,8 @@ span {
   background-repeat: no-repeat;
 }
 
-.nurse-4 {
-  background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/nurse-scrub-4.png?raw=true');
+.nurse-2 {
+  background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/nurse-scrub-2.png?raw=true');
   background-size: 80%;
   background-position: left bottom;
   background-repeat: no-repeat;
