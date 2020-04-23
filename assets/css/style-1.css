@@ -477,6 +477,13 @@ span {
   background-repeat: no-repeat;
 }
 
+.technology-1 {
+  background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/free-to-use/to-edit/SmartTechnology-777x437.jpg?raw=true');
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
 .homecare-1 {
   background-image: url("https://github.com/MCTTAN/home-care/blob/master/media/free-to-use/homecare-1.jpg?raw=true");
   background-size: 100%;
