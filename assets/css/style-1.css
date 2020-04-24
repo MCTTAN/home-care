@@ -456,6 +456,13 @@ span {
   background-repeat: no-repeat;
 }
 
+.couple-1 {
+  background-image: url("https://github.com/MCTTAN/home-care/blob/master/media/couple-1.png?raw=true");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
 .nurse-1 {
   background-image: url('https://github.com/MCTTAN/home-care/blob/master/media/nurse-scrub-1.png?raw=true');
   background-size: 50%;
