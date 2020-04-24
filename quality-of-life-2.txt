@@ -1,0 +1,32 @@
+<!-- START - WE PUT THE VALUE OF HUMAN LIFE AT A HIGHER LEVEL. -->
+      <div class="section row">
+        <div class="columns-container" style="width: 100%; flex-flow: column row wrap; min-height: 800px; margin-top: 100px;">
+          
+          <div class="column" style="background-color: #AEBCAB;">
+            <div class="container" style="margin-top: 25%; padding-left: 125px; padding-right: 125px; padding-bottom: 25%;">
+              <div class="section-title">
+                <p style="color: white;
+                          font-size: 45px;
+                          letter-spacing: 1.5px;
+                          text-align: right;">
+                    We customize our home care for each individual based on our reliable record-keeping.
+                </p>
+                      
+                <p style="font-size: 25px; color: white; letter-spacing: 1.5px; text-align: right; -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: white;">
+                    <br>
+                    Recording all information of an individual's care through digital forms and paperworks helps us closely monitor what's been done, and minimizes the risk of errors in recordkeeping and health care. Today's Home Care demands a high degree of self-evaluation in our staff beacuse it is essential to improving health outcomes and quality assurance.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column" style="background-image: url(media/elderly-2.png); 
+                                     background-size: cover;
+                                     background-position: center top;
+                                     background-repeat: no-repeat;">
+                
+          </div>
+              
+        </div>
+      </div>
+      <!-- END - WE PUT THE VALUE OF HUMAN LIFE AT A HIGHER LEVEL -->
